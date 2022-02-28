@@ -4,7 +4,7 @@ const svg = d3.select(".responsive-svg-container")
   .attr("viewBox", "0 0 600 700");
 
 // Load, format and measure the dataset
-d3.csv("../data/data.csv", d => {
+d3.csv("./data/data.csv", d => {
   // Format the dataset
   return {
     technology: d.technology,
