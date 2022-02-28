@@ -1,0 +1,60 @@
+html {
+  font-size: 62.5%;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  background-color: #fff;
+  font-family:  Helvetica, Arial,sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #000;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.responsive-svg-container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  max-width: 800px;
+}
+
+h1 {
+  margin: 50px 0 30px;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.6);
+  transition: color 0.2s ease-out;
+}
+a:hover, a:focus {
+  color: rgba(0, 0, 0, 1);
+  transition-timing-function: ease-in;
+}
+
+.source {
+  margin: 25px 0 40px;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 560px) {
+  h1 {
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+  }
+}
